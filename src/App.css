@@ -12,9 +12,17 @@ body {
   padding: 4rem 6rem;
 }
 
+.section__margin {
+  margin: 4rem 6rem;
+}
+
 @media screen and (max-width: 700px) {
   .section__padding {
     padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
   }
 }
 
@@ -22,4 +30,8 @@ body {
   .section__padding {
     padding: 4rem 2rem;
   }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
 }

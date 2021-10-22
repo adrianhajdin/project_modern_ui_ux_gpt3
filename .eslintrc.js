@@ -30,7 +30,7 @@ module.exports = {
     'import/prefer-default-export': 0,
     'max-len': [
       2,
-      250,
+      550,
     ],
     'no-multiple-empty-lines': [
       'error',
