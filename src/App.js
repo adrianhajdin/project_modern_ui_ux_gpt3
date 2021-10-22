@@ -7,11 +7,13 @@ import Features from './container/features/Features';
 import WhatGPT3 from './container/whatGPT3/WhatGPT3';
 import Brand from './components/brand/Brand';
 import Header from './container/header/Header';
+import Navbar from './components/navbar/Navbar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Header />
       <Brand />
       <WhatGPT3 />
