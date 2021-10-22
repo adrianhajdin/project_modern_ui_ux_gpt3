@@ -1,8 +1,6 @@
 .gpt3__possibility {
     display: flex;
     flex-direction: row;
-
-    padding: 4rem;
 }
 
 .gpt3__possibility-image {
@@ -89,8 +87,3 @@
     }
 }
 
-@media screen and (max-width: 550px) {
-    .gpt3__possibility {
-        padding: 4rem 2rem;
-    }
-}

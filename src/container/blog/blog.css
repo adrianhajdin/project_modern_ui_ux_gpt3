@@ -1,8 +1,6 @@
 .gpt3__blog {
     display: flex;
-    flex-direction: column;
-    
-    padding: 4rem;
+    flex-direction: column;    
 }
 
 .gpt3__blog-heading {
@@ -61,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .gpt3__blog-container_groupB {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -77,10 +75,6 @@
 }
 
 @media screen and (max-width: 550px) {
-    .gpt3__blog {
-        padding: 4rem 2rem;
-    }
-
     .gpt3__blog-heading h1 {
         font-size: 34px;
         line-height: 42px;
