@@ -6,11 +6,13 @@ import Possibility from './container/possibility/Possibility';
 import Features from './container/features/Features';
 import WhatGPT3 from './container/whatGPT3/WhatGPT3';
 import Brand from './components/brand/Brand';
+import Header from './container/header/Header';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <Brand />
       <WhatGPT3 />
       <Features />

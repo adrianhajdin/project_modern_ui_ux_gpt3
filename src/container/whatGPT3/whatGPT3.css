@@ -12,6 +12,12 @@
 }
 
 /* Customizing feature component as per needs */
+.gpt3__whatgpt3 .gpt3__features-container__feature-title div {
+    border: unset;
+    box-shadow: unset;
+}
+
+/* Customizing feature component as per needs */
 .gpt3__whatgpt3-feature .gpt3__features-container__feature {
     margin: 0;
 }
