@@ -13,8 +13,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Header />
+      <div className="gradient__bg">
+        <Navbar />
+        <Header />
+      </div>
       <Brand />
       <WhatGPT3 />
       <Features />
