@@ -15,11 +15,6 @@
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
-
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .gpt3__blog-container {

@@ -42,12 +42,6 @@
     font-weight: 800;
     font-size: 34px;
     line-height: 45px;
-    
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
     margin: 1rem 0;
 }
 

@@ -15,11 +15,6 @@
 }
 
 .gpt3__footer-heading h1 {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 64px;

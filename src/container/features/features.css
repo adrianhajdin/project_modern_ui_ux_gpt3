@@ -21,11 +21,6 @@
     line-height: 45px;
     font-weight: 800;
     font-family: var(--font-family);
-
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .gpt3__features-heading p {

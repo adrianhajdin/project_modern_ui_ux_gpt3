@@ -14,11 +14,6 @@
 }
 
 .gpt3__header-content h1 {
-    background: var(--gradient-text);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 62px;
@@ -89,6 +84,11 @@
     flex-direction: row;
 
     margin-top: 2rem;
+}
+
+.gpt3__header-content__people img {
+    width: 181.79px;
+    height: 38px;
 }
 
 .gpt3__header-content__people p {
