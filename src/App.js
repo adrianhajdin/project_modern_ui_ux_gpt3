@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Footer from './container/footer/Footer';
 import Blog from './container/blog/Blog';
 import CTA from './components/cta/CTA';
@@ -10,22 +11,20 @@ import Header from './container/header/Header';
 import Navbar from './components/navbar/Navbar';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="gradient__bg">
-        <Navbar />
-        <Header />
-      </div>
-      <Brand />
-      <WhatGPT3 />
-      <Features />
-      <Possibility />
-      <CTA />
-      <Blog />
-      <Footer />
+const App = () => (
+  <div className="App">
+    <div className="gradient__bg">
+      <Navbar />
+      <Header />
     </div>
-  );
-}
+    <Brand />
+    <WhatGPT3 />
+    <Features />
+    <Possibility />
+    <CTA />
+    <Blog />
+    <Footer />
+  </div>
+);
 
 export default App;
