@@ -65,8 +65,8 @@
     }
 
     .gpt3__possibility-image img {
-        width: unset;
-        height: unset;
+        width: 100%;
+        height: 100%;
     }
 
     .gpt3__possibility-content {
@@ -74,10 +74,4 @@
     }
 }
 
-@media screen and (max-width: 700px) {
-    .gpt3__possibility-image img {
-        width: 100%;
-        height: 100%;
-    }
-}
 
