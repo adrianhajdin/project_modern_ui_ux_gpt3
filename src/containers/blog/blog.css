@@ -1,6 +1,6 @@
 .gpt3__blog {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
 }
 
 .gpt3__blog-heading {
@@ -30,7 +30,7 @@
 .gpt3__blog-container_groupB {
     flex: 1;
 
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
 }
@@ -45,8 +45,8 @@
         margin: 2rem 0;
     }
 
-    .gpt3__blog-container_groupA .gpt3__blog-container_article  {
-       width: 48%;
+    .gpt3__blog-container_groupA .gpt3__blog-container_article {
+        width: 48%;
     }
 
     .gpt3__blog-container_groupA .gpt3__blog-container_article-image {
@@ -59,8 +59,8 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .gpt3__blog-container_groupA .gpt3__blog-container_article  {
-       width: 100%;
+    .gpt3__blog-container_groupA .gpt3__blog-container_article {
+        width: 100%;
     }
 
     .gpt3__blog-heading h1 {
