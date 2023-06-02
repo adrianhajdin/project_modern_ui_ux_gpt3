@@ -62,15 +62,6 @@
     color: var(--color-subtext);
     cursor: pointer;
 }
-
-.gpt3__whatgpt3-container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-    margin-top: 2rem;
-}
-
 /* Customizing feature component as per needs */
 .gpt3__whatgpt3-container .gpt3__features-container__feature {
     flex: 1;
@@ -78,6 +69,14 @@
     min-width: 210px;
     display: unset;
     flex-direction: column;
+}
+
+.gpt3__whatgpt3-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    margin-top: 2rem;
 }
 
 /* Customizing feature component as per needs */
