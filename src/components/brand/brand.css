@@ -15,3 +15,8 @@
     justify-content: center;
     align-items: center;
 }
+
+.gpt3__brand div img {
+    max-width: 100%;
+    height: auto;
+}
