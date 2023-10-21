@@ -55,6 +55,6 @@
 @media screen and (max-width: 550px) {
     .gpt3__blog-container_article-content h3 {
         font-size: 18px;
-        line-height: 25p;
+        line-height: 25px;
     }
 }
